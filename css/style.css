@@ -68,10 +68,6 @@ blockquote {
 	margin-bottom:40px;
 }
 
-.row .row, .row-fluid .row{
-	margin-bottom:0;
-}
-
 header{
 	position:relative;
 }
@@ -161,7 +157,7 @@ ul.nav li ul.dropdown-menu {
 
 .fixed {
   position: fixed;
-  background:#2f3040;
+  background:#22222c;
   top:0;
   left: 0;
   width: 100%;
@@ -847,7 +843,7 @@ ul.filter li{
 }
 
 ul.filter li.active a {
-	background:#333;
+	background:#555;
 }
 
 ul.filter li a{
@@ -1514,4 +1510,42 @@ section#featured{
 
 .logo-icon {
 	height: 80px;
+}
+
+
+img.boss-img {
+	width: 50%;
+	float: left;
+}
+
+.single-raid {
+	background: url("../img/RaidProgress-background.jpg");
+	border: 2px solid #577383;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.single-raid .image-left {
+	margin-left: 0;
+}
+
+.single-raid .image-left img {
+	border-radius: 7%;
+	border: 2px solid #455b68;
+}
+
+#progress h2 {
+	color: #f8b700;
+}
+#progress h3, #progress p {
+	color: #b1997f;
+}
+
+.our-heroes {
+	text-align: center;
+}
+
+.progress-date {
+	font-size: 17px;
+	font-weight: 400;
 }
