@@ -1512,33 +1512,41 @@ section#featured{
 	height: 80px;
 }
 
+.img.progress-img {
+	float: right;
+	margin: auto 0px;
+}
 
 img.boss-img {
 	width: 50%;
-	float: left;
 }
 
 .single-raid {
 	background: url("../img/RaidProgress-background.jpg");
 	border: 2px solid #577383;
-	padding: 10px;
+	padding: 0px;
 	margin-bottom: 10px;
+	text-align: center;
 }
 
-.single-raid .image-left {
+.single-raid div {
 	margin-left: 0;
 }
 
-.single-raid .image-left img {
-	border-radius: 7%;
-	border: 2px solid #455b68;
+#progress .dungeons h2 {
+	color: #f8b700;
+	padding: 10px 0;
+}
+#progress .dungeons h3 {
+	color: #b1997f;
+	padding: 20px 0;
+}
+#progress .dungeons p {
+	color: #b1997f;
 }
 
-#progress h2 {
-	color: #f8b700;
-}
-#progress h3, #progress p {
-	color: #b1997f;
+#progress .dungeons div.single-raid {
+	margin-left: 10px;
 }
 
 .our-heroes {
@@ -1548,4 +1556,18 @@ img.boss-img {
 .progress-date {
 	font-size: 17px;
 	font-weight: 400;
+}
+
+.single-boss.done p{
+	text-decoration: line-through;
+}
+
+.single-boss img{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+}
+
+.single-boss.done img{
+	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(0%);
 }
