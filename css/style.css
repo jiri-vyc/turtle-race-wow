@@ -796,7 +796,7 @@ section#featured p  {
 /* carousel slider */
 
 /* ================= services ============================ */
-section#services {
+section#rules {
 	background: #000 url(../img/bg/bg-1.jpg) 50% 0 no-repeat;
 	width:100%;
 	height:auto;
@@ -804,16 +804,16 @@ section#services {
 }
 
 @media (min-width: 1024px) {
-	section#services {
+	section#rules {
 		background-attachment: fixed;
 	}
 }
 
-#services .headline h3 {
+#rules .headline h3 {
 	color:#fff;
 }
 
-#services .section-intro p {
+#rules .section-intro p {
 	color:#f8f8f8;
 }
 
